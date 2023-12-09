@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import cv2
-import face_recognition  # Import face_recognition module
+import face_recognition 
 
 def capture_face(username, password):
     video_capture = cv2.VideoCapture(0)
